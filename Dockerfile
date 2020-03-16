@@ -1,5 +1,5 @@
 FROM swr.cn-east-3.myhuaweicloud.com/library/golang
 
-ADD test.tar /usr/local/bin
+ADD test /usr/local/bin
 
 CMD ["test"]
